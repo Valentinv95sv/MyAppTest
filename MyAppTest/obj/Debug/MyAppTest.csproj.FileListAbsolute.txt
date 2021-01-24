@@ -1,0 +1,17 @@
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\bin\Debug\MyAppTest.exe.config
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\bin\Debug\MyAppTest.exe
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\bin\Debug\MyAppTest.pdb
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\bin\Debug\ArduinoUploader.dll
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\bin\Debug\IntelHexFormatReader.dll
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\bin\Debug\Microsoft.Win32.Registry.dll
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\bin\Debug\RJCP.SerialPortStream.dll
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\bin\Debug\RJCP.SerialPortStream.pdb
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\bin\Debug\RJCP.SerialPortStream.xml
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\obj\Debug\MyAppTest.csprojAssemblyReference.cache
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\obj\Debug\MyAppTest.Properties.Resources.resources
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\obj\Debug\MyAppTest.csproj.GenerateResource.cache
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\obj\Debug\MyAppTest.csproj.CoreCompileInputs.cache
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\obj\Debug\MyAppTest.csproj.CopyComplete
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\obj\Debug\MyAppTest.exe
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\obj\Debug\MyAppTest.pdb
+C:\Users\balam\Desktop\github\MyAppTest\MyAppTest\obj\Debug\MyAppTest.Form1.resources

@@ -1,15 +1,19 @@
 ﻿ using System;
-using System.Windows.Forms;
+ using System.Collections.Generic;
+ using System.Windows.Forms;
 using ArduinoUploader;
 using ArduinoUploader.Hardware;
 using System.IO.Ports;
+ using MySql.Data.MySqlClient;
 
-namespace MyAppTest
+ namespace MyAppTest
 {
     public partial class Form1 : Form
     {
         Boolean isConnected;
+        private DBConnection conn =new DBConnection();
         private SerialPort port;
+        
         
         ArduinoSketchUploader uploader = new ArduinoSketchUploader(
             new ArduinoSketchUploaderOptions()
@@ -29,8 +33,11 @@ namespace MyAppTest
         
         public Form1()
         {
-            port = new SerialPort("com3", 9600);
             InitializeComponent();
+            conn.Initialize();
+            port = new SerialPort("com3", 9600);
+            textBox1.ScrollBars = ScrollBars.Vertical;
+            this.StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -87,6 +94,20 @@ namespace MyAppTest
             else
             {
                 disconnectToArduino();
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Second_Form newForm = new Second_Form();
+            newForm.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            foreach (var i in conn.Select())
+            {
+                textBox1.AppendText(i);
             }
         }
     }
